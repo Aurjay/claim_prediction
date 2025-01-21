@@ -84,8 +84,8 @@ st.markdown(
     }
     </style>
     <div class="footer">
-        <p>Besuchen Sie meine <a href="https://example.com" target="_blank">Website</a> | 
-         <a href="https://github.com/your-github" target="_blank">Project Code</a></p>
+        <p>Besuchen Sie meine <a href="https://www.deepakraj.site/" target="_blank">Website</a> | 
+         <a href="https://github.com/Aurjay/claim_prediction" target="_blank">Project Code</a></p>
     </div>
     """,
     unsafe_allow_html=True

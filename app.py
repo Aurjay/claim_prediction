@@ -8,7 +8,6 @@ import xgboost as xgb
 # Load the dataset
 df = pd.read_csv('train.csv')
 
-# Display basic info (optional, for debugging)
 print("Dataset Preview:")
 print(df.head())
 print("\nDataset Info:")
