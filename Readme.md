@@ -28,25 +28,25 @@ Dieses Projekt ist eine Machine-Learning-Anwendung, die Vorhersagen darüber tri
 
 Installieren Sie die folgenden Python-Pakete:
 
-```bash
 pip install pandas numpy joblib scikit-learn xgboost streamlit
+
 Anleitung zur Nutzung
 1. Datenverarbeitung und Modellentwicklung
 Platzieren Sie die Datei train.csv im Projektverzeichnis.
+
 Führen Sie den folgenden Code aus, um das Modell zu trainieren und zu speichern:
-bash
-Copy
-Edit
 python train_model.py
+
+---
 2. Starten der Streamlit-App
 Stellen Sie sicher, dass die Datei xgb_model.joblib im selben Verzeichnis wie app.py vorhanden ist.
 Starten Sie die Streamlit-App mit dem folgenden Befehl:
-bash
-Copy
-Edit
 streamlit run app.py
+
+---
+
 Öffnen Sie die angegebene URL (standardmäßig http://localhost:8501) in Ihrem Browser.
-Eingabe-Features
+
 Die App verwendet die folgenden Merkmale für die Vorhersage:
 
 Feature	Beschreibung	Bereich
@@ -54,23 +54,21 @@ policy_tenure	Laufzeit der Police (in Jahren)	0 bis 50
 age_of_policyholder	Alter des Versicherungsnehmers (in Jahren)	18 bis 100
 is_adjustable_steering	Verstellbare Lenkung (0 = Nein, 1 = Ja)	0 oder 1
 cylinder	Anzahl der Zylinder	1 bis 12
+
+---
+
 Vorhersageergebnisse
 1 (Ja): Der Benutzer wird höchstwahrscheinlich einen Versicherungsanspruch geltend machen.
 0 (Nein): Der Benutzer wird höchstwahrscheinlich keinen Versicherungsanspruch geltend machen.
-Projektstruktur
-plaintext
-Copy
-Edit
+
 .
 ├── train.csv               # Datensatz für das Modelltraining
 ├── train_model.py          # Skript zur Datenvorbereitung und Modellentwicklung
 ├── app.py                  # Streamlit-App für Vorhersagen
 ├── xgb_model.joblib        # Gespeichertes XGBoost-Modell
 ├── README.md               # Projektdokumentation
-Footer
-Die App enthält Links zu Ihrer Website und Ihrem GitHub-Profil am unteren Rand der Benutzeroberfläche.
 
-Autor
+
 Erstellt von Ihr Name.
 
 Website: https://www.deepakraj.site/
