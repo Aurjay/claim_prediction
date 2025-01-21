@@ -1,5 +1,3 @@
-# Vorhersage von Versicherungsansprüchen
-
 Dieses Projekt ist eine Machine-Learning-Anwendung, die Vorhersagen darüber trifft, ob ein Versicherungsanspruch geltend gemacht wird. Es verwendet einen trainierten XGBoost-Klassifikator und bietet eine benutzerfreundliche Schnittstelle über eine Streamlit-App.
 
 ![image](https://github.com/user-attachments/assets/e2c2f645-ed78-474f-a8f8-77826c6eaf3b)
@@ -12,11 +10,9 @@ Dieses Projekt ist eine Machine-Learning-Anwendung, die Vorhersagen darüber tri
 - **Modellentwicklung**: Ein XGBoost-Klassifikator wird mit ausgewählten Funktionen trainiert.
 - **Web-App**: Eine Streamlit-basierte Benutzeroberfläche zur Vorhersage von Versicherungsansprüchen.
 - **Interaktivität**: Benutzer können Eingabewerte für Schlüsselmerkmale bereitstellen, und die App gibt eine Vorhersage zurück.
-
 ---
 ## Dataset
-![text](https://www.kaggle.com/datasets/ifteshanajnin/carinsuranceclaimprediction-classification)
-
+[Car Insurance Claim Prediction - Classification](https://www.kaggle.com/datasets/ifteshanajnin/carinsuranceclaimprediction-classification)
 ---
 ## Technologie-Stack
 
