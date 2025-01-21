@@ -93,7 +93,7 @@ streamlit run app.py
 
 ## Autor
 
-Erstellt von **Ihr Name**.
+Erstellt von **Deepak Raj**.
 
 - **Website**: [https://www.deepakraj.site/](https://www.deepakraj.site/)
 - **GitHub**: [https://github.com/Aurjay/claim_prediction/tree/main](https://github.com/Aurjay/claim_prediction/tree/main)
