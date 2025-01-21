@@ -55,9 +55,9 @@ if model:
 
             # Display result
             result = (
-                "Der Benutzer wird höchstwahrscheinlich einen Anspruch geltend machen"
+                "Anspruch"
                 if prediction[0] == 1
-                else "Der Benutzer wird höchstwahrscheinlich keinen Anspruch geltend machen"
+                else "Keinen Anspruch"
             )
             st.subheader(f"Vorhersage: {result}")
         except Exception as e:
