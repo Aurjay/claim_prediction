@@ -10,10 +10,10 @@ Dieses Projekt ist eine Machine-Learning-Anwendung, die Vorhersagen darüber tri
 - **Modellentwicklung**: Ein XGBoost-Klassifikator wird mit ausgewählten Funktionen trainiert.
 - **Web-App**: Eine Streamlit-basierte Benutzeroberfläche zur Vorhersage von Versicherungsansprüchen.
 - **Interaktivität**: Benutzer können Eingabewerte für Schlüsselmerkmale bereitstellen, und die App gibt eine Vorhersage zurück.
----
+
 ## Dataset
 [Car Insurance Claim Prediction - Classification](https://www.kaggle.com/datasets/ifteshanajnin/carinsuranceclaimprediction-classification)
----
+
 ## Technologie-Stack
 
 - **Python**: Primäre Programmiersprache
