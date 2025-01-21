@@ -2,6 +2,8 @@
 
 Dieses Projekt ist eine Machine-Learning-Anwendung, die Vorhersagen darüber trifft, ob ein Versicherungsanspruch geltend gemacht wird. Es verwendet einen trainierten XGBoost-Klassifikator und bietet eine benutzerfreundliche Schnittstelle über eine Streamlit-App.
 
+![image](https://github.com/user-attachments/assets/e2c2f645-ed78-474f-a8f8-77826c6eaf3b)
+
 ---
 
 ## Funktionen
@@ -12,7 +14,10 @@ Dieses Projekt ist eine Machine-Learning-Anwendung, die Vorhersagen darüber tri
 - **Interaktivität**: Benutzer können Eingabewerte für Schlüsselmerkmale bereitstellen, und die App gibt eine Vorhersage zurück.
 
 ---
+## Dataset
+![text](https://www.kaggle.com/datasets/ifteshanajnin/carinsuranceclaimprediction-classification)
 
+---
 ## Technologie-Stack
 
 - **Python**: Primäre Programmiersprache
